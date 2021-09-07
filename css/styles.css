@@ -93,9 +93,7 @@ color: #FFFFFF;
 
 .hat{
     background-color: #2F303A;
-    height: 600px;
-    width: 100%;
-    
+    padding: 200px 0px;
 }
 .hat h1{
     font-style: normal;
@@ -106,8 +104,7 @@ color: #FFFFFF;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-
-    padding-top: 200px;
+    margin-top: 0px;
 }
 .hat button{
     width: 200px;
@@ -134,6 +131,9 @@ color: #FFFFFF;
 
 
 
+.specifications{
+    padding: 94px 0;
+}
 .specifications h3{
     font-style: normal;
     font-weight: bold;
@@ -148,10 +148,11 @@ color: #FFFFFF;
     display: inline;
     padding-right: 15px;
 }
-.specifications-container{
+.container{
     width: 1200px;
-    margin: auto;
-    padding: 94px 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .specifications p{
     font-style: normal;
@@ -252,9 +253,6 @@ color: #FFFFFF;
     flex-direction: column;
     justify-content: center;
 }
-.footer-container{
-    padding-left: 215px;
-}
 .footer li{
     list-style-type: none;
 }
@@ -327,14 +325,8 @@ color: #FFFFFF;
     width: 1170px;
     display: flex;
     flex-wrap: wrap; 
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-.portfolio-container{
-    padding-bottom: 94px;
-    padding-top: 0px;
-    
+    margin: auto;
+   
 }
 .portfolio-item{
     list-style-type: none;
